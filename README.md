@@ -6,7 +6,6 @@ Sets up directories with attributes. Hooks into the chef API.
 
 The following attributes mirror the chef API. Check the doc page for chef. [https://docs.chef.io/resource_directory.html]
 
-e.g.
 ### mkdir::default
 
 `node['mkdir']['path']` - directory path. [String]<br>
